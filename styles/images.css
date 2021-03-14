@@ -1,0 +1,83 @@
+section table h3 {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 120%;
+    padding-left: 10px;
+}
+section table, tr, td {
+    border: none;
+}
+section table tr {
+    margin-bottom: 5px;
+}
+section table.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+section table figure img {
+    width: 240px;
+    height: 180px;
+    padding: 10px 15px;
+}
+section table figure figcaption {
+    text-align: center;
+    margin-bottom: 20px;
+}
+section table figure a {
+    text-decoration: none;
+    font-size: 100%;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+section table figure a:hover, section table figure a:focus {
+    color: orange;
+}
+
+section table figure img#brittanyImg {
+    content: url(../images/Brittany-Spaniel.jpg);
+    background-size: 100% 100%;
+}
+section table figure img#brittanyImg:hover {
+    content: url(../images/Brittany-Spaniel2.jpg);
+}
+
+section table figure img#japaneseChinImg {
+    content: url(../images/Japanese-Chin.jpg);
+    background-size: 100% 100%;
+}
+section table figure img#japaneseChinImg:hover {
+    content: url(../images/Japanese-Chin2.jpg);
+}
+
+section table figure img#papillonImg {
+    content: url(../images/Papillon.jpg);
+    background-size: 100% 100%;
+}
+section table figure img#papillonImg:hover {
+    content: url(../images/Papillon2.jpg);
+}
+
+section table figure img#bullImg {
+    content: url(../images/Bull-Terrier.jpg);
+    background-size: 100% 100%;
+}
+section table figure img#bullImg:hover {
+    content: url(../images/Bull-Terrier2.jpg);
+}
+
+section table figure img#jackImg {
+    content: url(../images/Jack-Russell-Terrier.jpg);
+    background-size: 100% 100%;
+}
+section table figure img#jackImg:hover {
+    content: url(../images/Jack-Russell-Terrier2.jpg);
+}
+
+section table figure img#foxImg {
+    content: url(../images/Smooth-Fox-Terrier.jpg);
+    background-size: 100% 100%;
+}
+section table figure img#foxImg:hover {
+    content: url(../images/Smooth-Fox-Terrier2.jpg);
+}

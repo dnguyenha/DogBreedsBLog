@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Dogs Breeds blog</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/feedback.css">
+</head>
+<body>
+    <header>
+        <a name="top"></a>
+        <a href="index.html"><img src="images/ILoveDogs-logo.png" alt="Dogs Breeds"></a><br>
+        <h2>Dogs Breeds blog</h2>
+    </header>
+    <main>
+        <nav id="nav_main_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="images.html">All Breeds</a>
+                    <ul>
+                        <li><a href="#">Sporting Dogs</a>
+                            <ul>
+                                <li><a href="#">Brittany Spaniel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Toys</a>
+                            <ul>
+                                <li><a href="#">Japanese Chin</a></li>
+                                <li><a href="#">Papillon</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Terriers</a>
+                            <ul>
+                                <li><a href="#">Bull Terrier</a></li>
+                                <li><a href="#">Jack Russell Terrier</a></li>
+                                <li><a href="#">Smooth Fox Terrier</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="feedback.html" class="current" class="last_item">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <aside id="left_aside">
+            <ul>
+                <li>
+                    <figure>
+                        <a href="index.html"><img src="thumbnails/puppy.jpg" alt="Home"></a>
+                        <figcaption><a href="index.html">Home</a></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images.html"><img src="thumbnails/gallery_collection.jpg" alt="Gallery"></a>
+                        <figcaption><a href="images.html">Gallery</a></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="media.html"><img src="thumbnails/dog-media.jpg" alt="Media"></a>
+                        <figcaption><a href="media.html">Media</a></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="feedback.html"><img src="thumbnails/feedback.png" alt="Feedback"></a>
+                        <figcaption><a href="feedback.html">Contact Us</a></figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </aside>
+
+        <section>
+            <h3>Subcribe with us to receive montly newsletter and give us your feedback or questions if any.</h3>
+            <form id="subcribe" method="post" action="">
+                <fieldset>
+                    <legend>Registration Information</legend>
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" autofocus required><br>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required placeholder="email@domain.com"><br>
+                    <label for="address">Home Address</label>
+                    <input type="text" name="address" id="address" required><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gender Information</legend>
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="other">Other
+                </fieldset>
+
+                <fieldset>
+                    <legend>Favourite Dog Breeds</legend>
+                    <select id="favouriteBreed" name="favouriteBreed" size=4 multiple>
+                        <option value="brittany">Brittany Spaniel</option>
+                        <option value="chin">Japanese Chin</option>
+                        <option value="papillon">Papillon</option>
+                        <option value="bull">Bull Terrier</option>
+                        <option value="jack">Jack Russell Terrier</option>
+                        <option value="fox">Smooth Fox Terrier</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Type</legend>
+                    <label for="age_range">Age Range:</label>
+                    <select name="age_range" id="age_range">
+                        <option>----------Please select----------</option>
+                        <optgroup label="junior">
+                            <option value="a18">18 - 29</option>
+                            <option value="a30">30 - 39</option>
+                            <option value="a40">40 - 49</option>
+                        </optgroup>
+                        <optgroup label="senior">
+                            <option value="a50">50 - 59</option>
+                            <option value="a60">60+</option>
+                        </optgroup>
+                    </select><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comments</legend>
+                    <textarea name="comments" 
+                        placeholder="Please enter your comments here to help improve our services.">
+                    </textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Submit Your Membership</legend>
+                    <input type="submit" id="submit" value="Submit">
+                    <input type="reset" id="reset" value="Reset Fields">
+                </fieldset>
+            </form>
+            <br>
+        </section>
+
+        <aside id="right_aside">
+            <h3>How helpful is our blog?</h3>
+            <form id="feedback" method="post" action="">
+                <legend>Feedback</legend>
+                <input type="checkbox" name="excellent" value="excellent">Excellent<br>
+                <input type="checkbox" name="helpful" value="toys">Helpful<br>
+                <input type="checkbox" name="welldesigned" value="welldesigned">Well Designed<br>
+                <input type="checkbox" name="fewinfo" value="fewinfo">Few Information<br>
+                <input type="checkbox" name="notbeatiful" value="notbeatiful">Not Beautiful<br>
+
+                <legend>Will you visit us again?</legend>
+                <input type="radio" name="visit" value="yes">Yes
+                <input type="radio" name="visit" value="no">No
+                <input type="radio" name="visit" value="maybe">Maybe
+
+                <br>
+                <input type="submit" id="submitFb" value="Submit">
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2020, <a href="mailto:daonguyenha5356@conestogac.on.ca">Nguyen Ha Dao</a>, ID 8695356</p>
+    </footer>
+</body>
+</html>

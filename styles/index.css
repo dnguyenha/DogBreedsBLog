@@ -1,0 +1,12 @@
+/* section */
+section img {
+    width: 500px;
+    margin: 0 20px;
+    border: 1px solid darkgreen;
+}
+section article {
+    text-align: justify;
+    color: darkgreen;
+    line-height: 1.2;
+    padding: 10px;
+}

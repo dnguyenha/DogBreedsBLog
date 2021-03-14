@@ -1,0 +1,6 @@
+section audio, section video, section iframe {
+    width: 500px;
+    margin: 10px 25px;
+    border: 1px solid darkgreen;
+    align-content: center;
+}

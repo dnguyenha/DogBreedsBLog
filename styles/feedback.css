@@ -1,0 +1,99 @@
+/* section form */
+section h3 {
+    color: darkred;
+	font-size: 130%;
+    padding: 1em 0 .25em;
+    text-align: left;
+}
+section form {
+    width: 530px;
+    margin: 0 10px;
+}
+section fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+section legend {
+    color: darkseagreen;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 1em;
+}
+section label {
+    float: left;
+	width: 12em;
+    text-align: right;
+}
+section label, section input, section select {
+    font-size: 100%;
+}
+section input[type=text], section input[type=tel], section select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: 1em;
+}
+section input[type=radio] {
+	width: 2em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+section select#favouriteBreed {
+    width: 15em;
+    margin-left: 12.5em;
+    margin-bottom: 1em;
+}
+section input:focus {
+	border: 3px solid darkgreen;
+}
+section input:valid {
+    border: 1px solid green;
+    box-shadow: none;
+}
+section textarea {
+    width: 36em;
+    height: 7em;
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+section input[type=submit], section input[type=reset] {
+	width: 10em;
+    margin: 10px 40px;
+    padding: 0 20px;
+}
+
+/* aside form */
+aside h3 {
+    color: darkgreen;
+    margin-top: 70px;
+    font-size: 110%;
+}
+aside legend {
+    color: darkseagreen;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 10px;
+    margin-left: .5em;
+}
+aside input[type=radio]{
+	width: 1.2em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+aside input[type=checkbox]{
+    width: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+aside input[type=submit] {
+	width: 10em;
+    margin: 10px 40px;
+    padding: 0 20px;
+}
+aside input:focus {
+	border: 3px solid darkgreen;
+}
+aside input:valid {
+    border: 1px solid green;
+    box-shadow: none;
+}
